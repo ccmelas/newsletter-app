@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');
